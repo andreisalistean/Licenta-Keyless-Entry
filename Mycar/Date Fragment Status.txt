@@ -1,0 +1,58 @@
+Date Fragment Status 
+
+string 
+
+string[0]  --> voltage= [0.0 , 15.0]// incape lejer in char (0->150)
+
+
+
+string[1]  --> //////////////////////////////////////////parte intreaga
+		0-----------128-----------255  ///char
+		-128---------0------------127  ///degree C
+
+ strng[2]  --> //////////////////////////////////////////parte zecimala
+
+[.0 , .9]---4 biti
+
+0	degree C zec						7  6  5  4  3  2  1  0
+
+1	degree C zec						-  l  e  g  gr gr gr gr
+
+2	degree C zec
+
+3	degree C zec
+
+4	gear (true = is in gear , false = not in gear)
+
+5	engine (true = on, false = off)
+
+6	lock (true = locked , false = unlocked)
+
+7
+
+
+
+LIGHTS = A
+
+LOCK = B
+
+UNLOCK = C
+
+ENGINE = D
+
+KEYLESSENTRY_TURN_ON = E
+KEYLESSENTRY_TRUN_OFF = F
+
+
+#define ACCESORII 25
+#define CONTACT 26
+#define IGNITION 27
+#define UNLOCKED 35
+#define LIGHTS 13
+
+
+bool keylessEnabled=true;
+bool EngineState=false;
+bool locked=true;
+bool lightsOn=false;
+

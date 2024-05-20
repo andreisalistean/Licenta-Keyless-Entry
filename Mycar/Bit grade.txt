@@ -1,0 +1,38 @@
+Bit
+
+//////////////////////////////////////////parte intreaga
+0-----------128-----------255  ///char
+-128---------0------------127  ///degree C
+
+//////////////////////////////////////////parte zecimala
+
+[.0 , .9]---4 biti
+
+0	degree C zec
+
+1	degree C zec
+
+2	degree C zec
+
+3	degree C zec
+
+4	gear (true = is in gear , false = not in gear)
+
+5	engine (true = on, false = off)
+
+6	lock (true = locked , false = unlocked)
+
+7
+
+
+
+lock 
+unlock 
+
+pozitii
+faza scurta
+ceata
+
+accesorii
+contact		M
+turn_on    	M 110A
